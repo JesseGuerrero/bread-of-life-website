@@ -10,7 +10,7 @@ function sunday(events) {
   let sunday = new Date(2023, 7, 13, 10, 0)
   
   for(let i=0; i < 100; i++) {
-    events.push({title: 'Sunday Service', start: new Date(sunday)})
+    events.push({title: 'Sun Service', start: new Date(sunday)})
     sunday.setDate(sunday.getDate() + 7)
     sunday.setHours(10, 0, 0, 0)
   }

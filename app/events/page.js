@@ -7,7 +7,7 @@ import events from '@/utils/events'
 
 export default function CalendarPage() {
   return (
-      <div className='w-50 mx-auto calendar-container'>
+      <div className='w-xs-100 w-sm-100 w-md-75 w-xl-50 mx-auto calendar-container'>
         <FullCalendar
           plugins={[
             dayGridPlugin,

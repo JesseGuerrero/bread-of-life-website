@@ -14,17 +14,17 @@ export default function Carousel() {
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="10000">
     <div className="d-flex justify-content-center align-items-center">
-      <Image src={BannerOne} className="d-block w-50" alt="..." />
+      <Image src={BannerOne} className="d-block w-xs-100 w-sm-100 w-md-75 w-xl-50" alt="..." />
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
     <div className="d-flex justify-content-center align-items-center">
-      <Image src={BannerTwo} className="d-block w-50" alt="..." />
+      <Image src={BannerTwo} className="d-block w-xs-100 w-sm-100 w-md-75 w-xl-50" alt="..." />
       </div>
     </div>
     <div className="carousel-item">
     <div className="d-flex justify-content-center align-items-center">
-      <Image src={BannerThree} className="d-block w-50" alt="..." />
+      <Image src={BannerThree} className="d-block w-xs-100 w-sm-100 w-md-75 w-xl-50" alt="..." />
       </div>
     </div>
   </div>
