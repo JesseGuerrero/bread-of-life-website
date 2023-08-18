@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import Carousel from '@/components/carousel'
+import Carousel from '../components/carousel'
 //https://mccdc.com/
 export default function Home() {
   return (
